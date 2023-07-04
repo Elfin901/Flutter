@@ -1,0 +1,44 @@
+Tutor Flutter
+Flutter itu platformnya
+bahasanya bahasa dart
+
+#cara buat projek baru flutter
+Buka View di bagian atas, pilih Command pallete (Ctrl + Shift + P)
+Lalu cari Flutter new project
+Codingannya ada di dalam folder lib
+path .dart_tool sama .idea jangan dirubah, udah bawaan dari sistem flutternya sendiri
+path build kayaknya kalo gak salah isisnya sampah
+path lib dan test itu bagian utamanya yang bisa dicoding
+path android, ios, linux, macos, web, windows itu kayaknya agar aplikasi yang dibuat flutter bisa dipakai di banyak os
+
+#penjelasan apa yang ada di dalam codingan
+Void Main buat ngerun codingan aplikasinya
+class itu kalo gak salah adalah widgetnya
+
+Dalam sebuah aplikası ada Widgetnya
+Widget itu bagian bagian, kayak bagian dari mobil (roda, spion)
+
+StatelessWidget itu widget yang tampilannya gak bisa dirubah
+StateFul Widget itu widget yg tampilannya bisa berubah
+
+widget Scaffold perlakuannya spesial
+Scaffold itu kayak bingkai utamanya paling luarnya
+Cara buatnya => home: Scaffold
+
+Kemudian Container itu kayak kerangkanya, wadah kosomg
+Cara buatnya => body: Container
+Container itu nama tipe data
+
+Di container bisa atur warna juga
+Kita bisa kasih child ke container
+Child itu tipe datanya
+Child itu widget di dalam widget
+
+Cari di pub.dev
+Cari google font
+Semuanya kayak sudah lengkap tentang flutter di sana
+
+https://docs.flutter.dev/
+Disini panduan flutternya sudah lumayan lengkap
+
+Parsing data http request
