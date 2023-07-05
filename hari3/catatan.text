@@ -1,0 +1,10 @@
+Agar layar nya bisa di scroll tidak pakai construktor, pakai SingleChildScrollView
+
+#Perbedaan List sama Map sama Post
+List digunakannya kayak array, akses data di dalamnya pakai angka mulai dari 0
+
+Map kayak Json. Datanya berpasang pasangan. sebelah kiri namanya key. sebelah kanan adalah datanya
+cara aksesnya yaitu dengan mengetik nama key nya
+
+Post di dart itu awalnya adalah nama kelas dan konstruktor
+Lalu di dalam construktor
