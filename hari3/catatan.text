@@ -1,4 +1,4 @@
-Agar layar nya bisa di scroll tidak pakai construktor, pakai SingleChildScrollView
+Agar layar nya bisa di scroll tidak pakai construktor, pakai SingleChildScrollView kalo gak gitu pakai list view
 
 #Perbedaan List sama Map sama Post
 List digunakannya kayak array, akses data di dalamnya pakai angka mulai dari 0
@@ -8,3 +8,46 @@ cara aksesnya yaitu dengan mengetik nama key nya
 
 Post di dart itu awalnya adalah nama kelas dan konstruktor
 Lalu di dalam construktor
+
+#cara buat animation
+return Scaffold
+foatingActionButton: Floating Action Button
+
+
+Tutor Flutter
+Buka View di bagian atas, pilih Command pallete (Ctrl + Shift + P)
+Lalu cari new project Flutter
+
+Void Main buat ngerun codingan aplikasinya
+
+Dalam sebuah aplikası ada Widgetnya
+Widget itu bagian bagian. Kayak bagian dari mobil (roda, spion)
+
+StatelessWidget itu widget yang tampilannya gak bisa dirubah
+StateFul Widget itu widget yg tampilannya bisa berubah
+
+widget Scaffold perlakuannya spesial
+Scaffold itu kayak bingkai utamanya paling luarnya
+Cara buatnya => home: Scaffold
+
+Kemudian Container itu kayak kerangkanya, wadah kosomg
+Cara buatnya => body:s Container
+Container itu nama tipe data
+
+Di container bisa atur warna juga
+Kita bisa kasih child ke container
+Child itu tipe datanya
+Child itu widget di dalam widget
+
+Cari di pub.dev
+Cari google font
+Semuanya kayak sudah lengkap tentang flutter di sana
+
+https://docs.flutter.dev/
+Disini panduan flutternya sudah lumayan lengkap
+
+Parsing data http request
+
+future builder bisa buat nangkap eror
+Bisa menampilkan lingkaran loading
+Get data bisa berjalan secara asinkronus
